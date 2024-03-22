@@ -1,6 +1,11 @@
+.total {
+    background-color:antiquewhite;
+}
+
 .container {
     border: 1px solid #cccccc;
     box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
+    background-color: rgb(235, 246, 255);
     border-radius: 20px;
     position: absolute;
     top: 55%;
@@ -26,19 +31,18 @@
     border: 1px solid #c4c4c4;
     background-color: transparent;
     font-size: 2rem;
-    color: #333;
+    color: black;
     background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0, 0, 0, .04));
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .05), inset 0 1px 0 0 rgba(255, 255, 255, .45), inset 0 -1px 0 0 rgba(255, 255, 255, .15), 0 1px 0 0 rgba(255, 255, 255, .15);
-    text-shadow: 0 1px rgba(255, 255, 255, .4);
 }
 
 .button:hover {
-    background-color: #eaeaea;
+    background-color: blanchedalmond;
 }
 
 .operator {
     color: #fff;
-    background-color: #eebb24;
+    background-color:goldenrod;
 }
 
 .clear {
@@ -64,10 +68,11 @@
 }
 
 .screen {
-    background-color: rgb(171, 219, 231);
+    background-color: blanchedalmond;
     justify-content: left;
     color: black;
     font-size: medium;
+    font-weight: bold;
     width: 50%;
     height: 30%;
     cursor: default;
